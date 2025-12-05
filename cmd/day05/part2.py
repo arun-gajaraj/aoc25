@@ -19,13 +19,7 @@ for line in lines:
     else:
         stock_ids.append(int(line))
 
-fresh_list = set()
-
-print(fresh_ranges)
-
 pairs = sorted(fresh_ranges, key=lambda x: x[0])
-
-print(pairs)
 
 fresh_count = 0
 master_range = ()
