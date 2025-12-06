@@ -24,7 +24,6 @@ pairs = sorted(fresh_ranges, key=lambda x: x[0])
 fresh_count = 0
 master_range = ()
 
-
 for p in pairs:
     if master_range == ():
         master_range = p
